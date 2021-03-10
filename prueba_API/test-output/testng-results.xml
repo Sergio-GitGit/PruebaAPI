@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-03-10T19:17:58 CET" name="Default suite" finished-at="2021-03-10T19:18:00 CET" duration-ms="2010">
+  <suite started-at="2021-03-11T00:02:20 CET" name="Default suite" finished-at="2021-03-11T00:02:22 CET" duration-ms="2856">
     <groups>
     </groups>
-    <test started-at="2021-03-10T19:17:58 CET" name="Default test" finished-at="2021-03-10T19:18:00 CET" duration-ms="2010">
+    <test started-at="2021-03-11T00:02:20 CET" name="Default test" finished-at="2021-03-11T00:02:22 CET" duration-ms="2856">
       <class name="packageAPI.principal">
-        <test-method signature="crear_usuario()[pri:1, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:58 CET" name="crear_usuario" finished-at="2021-03-10T19:17:59 CET" duration-ms="1238" status="FAIL">
+        <test-method signature="crear_usuario()[pri:1, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:20 CET" name="crear_usuario" finished-at="2021-03-11T00:02:21 CET" duration-ms="1751" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Server returned HTTP response code: 409 for URL: https://api-testing-conference.herokuapp.com/v1.0/users]]>
@@ -50,27 +50,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crear_usuario -->
-        <test-method signature="obtener_usuarios()[pri:2, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:59 CET" name="obtener_usuarios" finished-at="2021-03-10T19:17:59 CET" duration-ms="232" status="PASS">
+        <test-method signature="obtener_usuarios()[pri:2, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="obtener_usuarios" finished-at="2021-03-11T00:02:22 CET" duration-ms="287" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- obtener_usuarios -->
-        <test-method signature="crear_mensaje_foro()[pri:3, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:59 CET" name="crear_mensaje_foro" finished-at="2021-03-10T19:18:00 CET" duration-ms="58" status="PASS">
+        <test-method signature="crear_mensaje_foro()[pri:3, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="crear_mensaje_foro" finished-at="2021-03-11T00:02:22 CET" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- crear_mensaje_foro -->
-        <test-method signature="obtener_mensajes_foro()[pri:4, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="obtener_mensajes_foro" finished-at="2021-03-10T19:18:00 CET" duration-ms="101" status="PASS">
+        <test-method signature="obtener_mensajes_foro()[pri:4, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="obtener_mensajes_foro" finished-at="2021-03-11T00:02:22 CET" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- obtener_mensajes_foro -->
-        <test-method signature="enviar_mensaje_privado()[pri:5, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="enviar_mensaje_privado" finished-at="2021-03-10T19:18:00 CET" duration-ms="72" status="PASS">
+        <test-method signature="enviar_mensaje_privado()[pri:5, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="enviar_mensaje_privado" finished-at="2021-03-11T00:02:22 CET" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enviar_mensaje_privado -->
-        <test-method signature="obtener_mensaje_privado()[pri:6, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="obtener_mensaje_privado" finished-at="2021-03-10T19:18:00 CET" duration-ms="93" status="PASS">
+        <test-method signature="obtener_mensaje_privado()[pri:6, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="obtener_mensaje_privado" finished-at="2021-03-11T00:02:22 CET" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- obtener_mensaje_privado -->
-        <test-method is-config="true" signature="borrar_mensajes_privados()[pri:0, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="borrar_mensajes_privados" finished-at="2021-03-10T19:18:00 CET" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="borrar_mensajes_privados()[pri:0, instance:packageAPI.principal@6db9f5a4]" started-at="2021-03-11T00:02:22 CET" name="borrar_mensajes_privados" finished-at="2021-03-11T00:02:22 CET" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- borrar_mensajes_privados -->
