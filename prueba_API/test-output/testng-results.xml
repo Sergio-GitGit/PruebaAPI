@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-10T19:17:58 CET" name="Default suite" finished-at="2021-03-10T19:18:00 CET" duration-ms="2010">
+    <groups>
+    </groups>
+    <test started-at="2021-03-10T19:17:58 CET" name="Default test" finished-at="2021-03-10T19:18:00 CET" duration-ms="2010">
+      <class name="packageAPI.principal">
+        <test-method signature="crear_usuario()[pri:1, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:58 CET" name="crear_usuario" finished-at="2021-03-10T19:17:59 CET" duration-ms="1238" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Server returned HTTP response code: 409 for URL: https://api-testing-conference.herokuapp.com/v1.0/users]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Server returned HTTP response code: 409 for URL: https://api-testing-conference.herokuapp.com/v1.0/users
+at org.testng.Assert.fail(Assert.java:97)
+at packageAPI.principal.crear_usuario(principal.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crear_usuario -->
+        <test-method signature="obtener_usuarios()[pri:2, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:59 CET" name="obtener_usuarios" finished-at="2021-03-10T19:17:59 CET" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtener_usuarios -->
+        <test-method signature="crear_mensaje_foro()[pri:3, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:17:59 CET" name="crear_mensaje_foro" finished-at="2021-03-10T19:18:00 CET" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crear_mensaje_foro -->
+        <test-method signature="obtener_mensajes_foro()[pri:4, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="obtener_mensajes_foro" finished-at="2021-03-10T19:18:00 CET" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtener_mensajes_foro -->
+        <test-method signature="enviar_mensaje_privado()[pri:5, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="enviar_mensaje_privado" finished-at="2021-03-10T19:18:00 CET" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enviar_mensaje_privado -->
+        <test-method signature="obtener_mensaje_privado()[pri:6, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="obtener_mensaje_privado" finished-at="2021-03-10T19:18:00 CET" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- obtener_mensaje_privado -->
+        <test-method is-config="true" signature="borrar_mensajes_privados()[pri:0, instance:packageAPI.principal@623a8092]" started-at="2021-03-10T19:18:00 CET" name="borrar_mensajes_privados" finished-at="2021-03-10T19:18:00 CET" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- borrar_mensajes_privados -->
+      </class> <!-- packageAPI.principal -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
